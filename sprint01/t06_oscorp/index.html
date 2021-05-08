@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Самые вкусная выпечка Ucod 'a' . Пекарня Киев">
+  <meta name="author" content="lbilynets" >
+  <link rel="stylesheet" href="./style.css">
+  <title>Your bakery</title>
+</head>
+<body>
+   <!-- Шапка страницы -->
+  <header>
+     <nav>
+      <ul class="menu">
+        <li><img src="./assets/images/logo.png" width="400px" height="95px" id="logo">
+         <li><a class="topMenu h-card" href="">О нас</a></li>
+         <li><a class="topMenu" href="">Меню</a></li>
+         </li>
+         <li><a class="topMenu " href="">Поиск</a></li>
+         <li><a class="topMenu" href="#inf">Контакты</a></li>
+         <li><a href="tel:+380000000000" class="topMenu">тел. +380000000000</a></li>     
+         </li> 
+      </ul>
+   </nav>
+  </header>
+ <p class="breadcrumbs">Главная страница / Каталог</p>
+ <h1 class="p-name">Каталог</h1>
+ <!-- Каталог -->
+ <div class="wrapper">
+   <div class="filterTop">
+     <div class="chek">
+      <input type="checkbox" id="o"><label for="o">В наличии</label>
+     <input type="checkbox" id="c"><label for="c">Без лактозы</label>
+     <input type="checkbox"id="d"><label for="d">Натуральный состав</label> 
+     </div>
+   </div>
+   <div class="filterChoice">
+     <p class="p-name">Фильтр вкуса</p>
+     <div class="vkus">
+     <input type="checkbox" id="cho"><label for="cho">Шоколадный</label>
+     <input type="checkbox" id="milk"><label for="milk">Молочный</label><br>
+     <input type="checkbox" id="vanil"><label for="vanil">Ванильный</label>
+    </div>
+     <p>Фильтр по цене</p>
+     <span>15 UAH</span> <input class="slider" type="range" min="1" max="100" value="50" id="slaid">
+     <span>100 UAH</span>
+   </div>
+   <div class="items category e-content">
+     <a class="card" href="./card.html">
+       <img src="./assets/images/item1.jpg" alt="маффины">
+       <div class="all">
+         <span>Маффин</span>
+       <p>25 UAH</p>
+       <p>В наличии</p>
+       <button>Купить</button>
+       </div> 
+     </a>
+     <a class="card" href="./card.html">
+      <img src="./assets/images/item2.jpg" alt="Печенье">
+      <div class="all">
+        <span>Печенье</span>
+      <p>15 UAH</p>
+      <p class="nal">Не в наличии</p>
+      <button>Купить</button>
+      </div> 
+    </a>
+     <a class="card" href="./card.html">
+      <img src="./assets/images/item3.jpg" alt="Рваный торт">
+      <div class="all">
+        <span>Рваный торт</span>
+      <p>55 UAH</p>
+      <p class="nal">Не в наличии</p>
+      <button>Купить</button>
+      </div> 
+     </a>
+     <a class="card" href="./card.html" >
+      <img src="./assets/images/item4.jpg" alt="Трубочки">
+      <div class="all">
+        <span>Трубочки</span>
+      <p>30 UAH</p>
+      <p class="nal">Не в наличии</p>
+      <button>Купить</button>
+      </div> 
+    </a>
+     </div>
+  <div class="pag">
+    <ul class="pagination">
+    <li> <a href="#"><</a></li>
+    <li> <a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li> <a href="#">></a></li>
+  </ul>
+  </div>
+ </div>
+<footer>
+  <span class="p-locality">Киев 2021</span>
+</footer>
+</body>
+</html>

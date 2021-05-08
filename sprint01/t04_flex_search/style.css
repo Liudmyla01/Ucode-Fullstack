@@ -1,0 +1,35 @@
+form{
+   /* бокс заставляет вс> внутри стать в ряд */
+   display: flex;
+   /* размещение всех дете слева направо */
+   flex-direction: row;
+   align-items: center;
+}
+input{
+   /* заставляет строку увиличится в ширине, а кнопка подстраивается*/
+   flex-grow:1 ;
+   height: 2em;
+   float: left;
+   border: 2px solid rgba(32, 32, 206, 0.719);
+   color: rgb(6, 177, 6);
+   padding-left: 10px;
+   padding-right: 10px;
+   }
+  
+   button{
+      height: 2em; 
+      color: green;
+      width: auto;
+      font-size: 15.5px;
+      
+    }
+   h1{
+      text-align: center;
+   }
+      .inp:hover{
+         color: red;
+      }
+     
+      .butt:hover {
+         color: rgb(224, 17, 59);
+      }

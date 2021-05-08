@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.photo{
+  height: 400px;
+  width: 250px;
+}
+.photo2{ width: 650px;
+}
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ margin-top: 150px;
+}
+.content{
+  border: 2px solid rgb(50, 31, 31);
+  border-radius: 20px;
+  padding: 20px;
+}
+.but{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+button{
+  background-color: cadetblue;
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: antiquewhite;
+}
+#turnSup, #flyButt, #fightButt{
+  display: none;
+  background-color: rgb(145, 120, 169);
+}
+p{
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.feed{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.hung{
+  text-align: center;
+  background-color: rgb(242, 143, 120);
+  display: none;
+  -webkit-animation: hung 1s linear infinite;
+  animation: hung 1s linear infinite;
+}
+@-webkit-keyframes hung {
+  100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes hung {
+  100% { color: rgba(34, 34, 34, 0); }
+}
+.full{
+  text-align: center;
+  background-color: rgb(175, 242, 120);
+  display: none;
+}
+.eat{
+  text-align: center;
+  background-color: rgb(120, 209, 242);
+  display: none;
+}
+.modal{
+  background-color: rgba(242, 142, 120, 0.42);
+  text-align: center;
+  display: none;
+  -webkit-animation: modal 1s linear infinite;
+  animation: modal 1s linear infinite;
+}
+@-webkit-keyframes modal {
+  100% { color: rgba(34, 34, 34, 0); }
+}
+@keyframes modal{
+  100% { color: rgba(34, 34, 34, 0); }
+}
+
+.modalTotal{
+  background-color: rgb(238, 195, 238);
+  font-size: 20px;
+  text-align: center;
+  display: none;
+}

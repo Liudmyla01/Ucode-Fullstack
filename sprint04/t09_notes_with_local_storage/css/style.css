@@ -1,0 +1,48 @@
+.wrapper{
+   margin: auto;
+   position: relative;
+   top: 50px;
+   max-width: 650px;
+   height: auto;
+   /* background-color: rgb(129, 30, 210); */
+}
+#butt{
+   display: flex;
+   justify-content: space-between;
+  
+   
+}
+.btn{
+   width: 150px;
+   height: 35px;
+   border-radius: 5px;
+   background-color: rgb(122, 212, 215);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+   
+}
+.backarea{
+   background-color: rgba(223, 221, 217, 0.44);
+   margin-top: 10px;
+   border-radius: 10px; 
+   height: 300px;
+}
+.backarea:nth-child(2){
+   height: 100px;  
+}
+.resultCookies{
+   width: 90%;
+   height: 50px;
+   padding: 10px;
+   margin-left: 15px;
+ }
+ span{
+    margin: 15px;
+ }
+ #textCoolies{
+   margin-left: 15px;
+   height: 250px;
+   width: 400px;
+ }

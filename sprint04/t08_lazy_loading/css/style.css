@@ -1,0 +1,22 @@
+img{
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-top: 30px;
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+}
+.counter{
+  width: 150px;
+  height: 30px;
+  padding: 5px;
+  background: rosybrown;
+  border-radius: 10px;
+  font-size: 20px;
+  right: 10em;
+  position: fixed;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+/* задает ключевые кадры анимации(промежуток куда она двигается) */
+@keyframes move {
+	from {margin-left: 0;}
+	to {margin-left: 1000px;}
+}
+div{
+   background: green;
+  clip-path: circle(50%);
+  height: 150px;
+  width: 150px;
+  margin-top: 50px;
+  /* Проигрывание анимации в прямом,а потом в обратном направлении */
+  animation-direction: alternate;
+  /* Время анимации */
+   animation-duration: 7s;
+   /*Имя анимации,оно должно быть такое же, какое задано при определении ключевых кадров @keyframes.  */
+   animation-name: move;
+   /* animation-iteration-count задает количество повторов анимации/infinite	Анимация будет повторятся бесконечно. */
+   animation-iteration-count: infinite;
+   /* animation-timing-function устанавливает скорость изменения (ускорение) анимации./linear--Всегда одна и та же скорость. */
+   animation-timing-function: linear;
+}
+div:hover{
+   background: red;
+   /* проявление через 2секунды */
+   transition: 2s;
+}
