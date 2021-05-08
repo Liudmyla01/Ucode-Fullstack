@@ -1,0 +1,50 @@
+table{
+border-collapse: collapse;
+border: 1px solid gray;
+
+}
+tbody td{
+   border:1px solid white;
+  
+}
+.name_table {
+background: black;
+color: white;
+}
+.soul{
+   background: rgb(211, 146, 26);
+   text-align: center;
+} 
+.time{
+   background:green;
+   text-align: center; 
+}
+.space{
+   background: rgb(73, 73, 143);
+   text-align: center; 
+  }
+  .mind{
+   background:rgb(223, 223, 18);
+   text-align: center; 
+  }
+  .rea{
+   background:rgb(199, 57, 57);
+   text-align: center;    
+  }
+  .power {
+   background: rgba(102, 39, 131, 0.973);
+   text-align: center; 
+  }
+.imSo{
+  border-radius: 25px ;
+  height: 120px;
+  width: 115px;
+  object-fit: cover;
+  padding: 5px;
+}
+.wiki {
+   text-align: center;
+}
+.em{
+   font-style: italic;
+}

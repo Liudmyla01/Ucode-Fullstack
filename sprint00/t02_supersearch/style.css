@@ -1,0 +1,22 @@
+.inp {
+width: 45%;
+height: 2em;
+border: 2px solid rgba(32, 32, 206, 0.719);
+border-radius: 3px;
+color: rgb(6, 177, 6);
+float: left;
+padding-left: 10px;
+padding-right: 10px;
+}
+.inp:hover{
+   color: red;
+}
+.butt{
+   height: 2em; 
+   color: green;
+   width: auto;
+   font-size: 15.5px;
+ }
+.butt:hover {
+   color: rgb(224, 17, 59);
+}

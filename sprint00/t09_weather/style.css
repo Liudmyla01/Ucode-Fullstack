@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.card{
+   display: inline-block;
+   font-family: serif;
+   text-align: center;
+   width: 134px;
+   height: 150px;
+ }
+ 
+ .card:hover{
+   box-shadow: 0 0 7px black;
+ }
+ 
+ .date{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30px;
+   background-color: #0097B9;
+   color: white;
+   size: 1.5em;
+   font-family: 'Lato', sans-serif;;
+   font-weight: 700;
+      
+ }
+ .temperature{
+    size: 2em;
+    font-family: 'Lato', sans-serif;
+   font-weight: 400;
+   }
